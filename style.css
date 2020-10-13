@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: proxima-nova, sans-serif;
+    color: #262A33;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{
+    font-size: 38px
+}
+
+h2{
+    font-size: 32px
+}
+
+h3{
+    font-size: 24px
+}
+
+.navbar {
+    position: sticky;
+    height: 6vh;
+    font-family: proxima-nova, sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.05);
+}
+
+.nav__logo{
+    margin-left: 10vw;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+}
+
+.nav__menu{
+    position: relative;
+    display: flex;
+    margin-left: 16vw;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    color: #262A33
+}
+.nav__menu__item{
+    position: relative;
+    margin-left: 3vw;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.nav__social{
+    display: flex;
+    margin-left: auto;
+    margin-right: 15vw;
+    justify-content: space-evenly;
+}
+
+.nav__social__item{
+    margin-left: 20px;
+    font-size: 22px;
+    color: #353535;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./images/bola-fitnessfia-homepage.png");
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+}
+
+.hero__img img{
+    background: none;
+    height: 90vh;
+    margin-left: 50px;
+}
+
+.hero__cta {
+    position: absolute;
+    width: 34vw;
+    top: 20vh;
+    left: 10vw;
+}
+
+.cta__title {
+    font-family: futura-pt, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.cta__body {
+    color: #262A33;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.cta__buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cta__buttons button{
+    padding: 10px 30px;
+    border: none;
+    color: #ffffff;
+    font-family: futura-pt,sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.primary_button{
+    background-color: #00B896;
+}
+
+.secondary_button{
+    background-color: #353535;
+}
+
+.nav__item__focus::before{
+    background: #63EDCB;
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
